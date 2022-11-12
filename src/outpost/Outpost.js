@@ -1,0 +1,14 @@
+import styles from "./Outpost.module.scss";
+
+export default function Outpost() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.mainLeft}>
+        <h1 className="section-header">Outpost</h1>
+      </div>
+      <div className={styles.rightSidebar}>
+        <h2 className="section-header">Cart</h2>
+      </div>
+    </div>
+  );
+}
