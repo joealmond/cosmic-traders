@@ -1,14 +1,10 @@
 $gutter: 30px;
 
-.container {
-  display: flex;
-}
-
-.container .mainLeft {
+.mainLeft {
   flex-grow: 1;
   margin-right: $gutter;
 }
 
-.container .rightSidebar {
+.rightSidebar {
   width: 360px;
 }
