@@ -1,28 +1,26 @@
-.productImage {
-  position: relative;
+.container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 18px;
-  margin: 0;
+  width: 100%
 }
 
-.productImage {
-  img {
-    width: 300px;
-    background-color: #1D1E25;
-  }
+.product {
+  display: flex;
+  margin: 50px auto;
 }
 
 .productDetails {
+  display: flex;
 
   &,
   & .title {
     font-family: nasalization-light;
-    font-size: 18px;
-    text-align: center;
+    font-size: 24px;
     margin: 0;
+  }
+
+  .labels {
+    text-align: right;
+    margin: 0 25px;
   }
 }
 
