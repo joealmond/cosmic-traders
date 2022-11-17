@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cosmic-traders/static/css/main.e3466dfb.css",
-    "main.js": "/cosmic-traders/static/js/main.b99b5cf6.js",
+    "main.js": "/cosmic-traders/static/js/main.3202f362.js",
     "static/js/787.87d17976.chunk.js": "/cosmic-traders/static/js/787.87d17976.chunk.js",
     "static/media/double-retro-laser-blammers.png": "/cosmic-traders/static/media/double-retro-laser-blammers.e75448c1ac07a8b9baf7.png",
     "static/media/warp-engine.png": "/cosmic-traders/static/media/warp-engine.fd72fb2a5b185187f3b7.png",
@@ -24,11 +24,11 @@
     "static/media/nasalization-bk-webfont.woff2": "/cosmic-traders/static/media/nasalization-bk-webfont.fd07dbbc335a0f9bc8bc.woff2",
     "index.html": "/cosmic-traders/index.html",
     "main.e3466dfb.css.map": "/cosmic-traders/static/css/main.e3466dfb.css.map",
-    "main.b99b5cf6.js.map": "/cosmic-traders/static/js/main.b99b5cf6.js.map",
+    "main.3202f362.js.map": "/cosmic-traders/static/js/main.3202f362.js.map",
     "787.87d17976.chunk.js.map": "/cosmic-traders/static/js/787.87d17976.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3466dfb.css",
-    "static/js/main.b99b5cf6.js"
+    "static/js/main.3202f362.js"
   ]
 }
