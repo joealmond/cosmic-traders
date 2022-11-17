@@ -9,6 +9,7 @@ import styles from "./App.module.scss";
 
 function App() {
   const [cart, setCart] = useState([]);
+  const PublicUrl = {};
   const publicUrl = new PublicUrl(process.env.PUBLIC_URL);
   return (
     <BrowserRouter basename={publicUrl}>
