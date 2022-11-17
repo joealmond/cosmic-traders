@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f05d88e8.css",
+    "main.js": "/static/js/main.95f2d40e.js",
+    "static/js/787.87d17976.chunk.js": "/static/js/787.87d17976.chunk.js",
+    "static/media/double-retro-laser-blammers.png": "/static/media/double-retro-laser-blammers.e75448c1ac07a8b9baf7.png",
+    "static/media/warp-engine.png": "/static/media/warp-engine.fd72fb2a5b185187f3b7.png",
+    "static/media/shield-generator.png": "/static/media/shield-generator.9eb71e8adfca6c3b123e.png",
+    "static/media/cryogenic-chamber.png": "/static/media/cryogenic-chamber.36be81394a3691ad31bc.png",
+    "static/media/tractor-beam.png": "/static/media/tractor-beam.611ed18a8d39592214c5.png",
+    "static/media/space-helmet.png": "/static/media/space-helmet.dae69b6091646a468a77.png",
+    "static/media/warp-core.png": "/static/media/warp-core.728c3a15e500c9924d03.png",
+    "static/media/teleporter.png": "/static/media/teleporter.d4afe137f98c3d1aedb9.png",
+    "static/media/targeting-viewport.png": "/static/media/targeting-viewport.dfa66842f3fe538db457.png",
+    "static/media/cryo-chamber.png": "/static/media/cryo-chamber.cb24a2e8c3b4ae6712c6.png",
+    "static/media/booster-rocket.png": "/static/media/booster-rocket.dada051d53a0be2a547f.png",
+    "static/media/radar-array.png": "/static/media/radar-array.e86d9d1c65b94fae1be9.png",
+    "static/media/jetpack.png": "/static/media/jetpack.9a2c09c4a6e6c281732a.png",
+    "static/media/universal-translator.png": "/static/media/universal-translator.a1e813413c32744df82c.png",
+    "static/media/logo.png": "/static/media/logo.a39e34ef4248d007086c.png",
+    "static/media/nasalization-lt-webfont.woff": "/static/media/nasalization-lt-webfont.dd72db98f8ec8c394299.woff",
+    "static/media/nasalization-bk-webfont.woff": "/static/media/nasalization-bk-webfont.37d407d60fbca42333ba.woff",
+    "static/media/nasalization-lt-webfont.woff2": "/static/media/nasalization-lt-webfont.13e445331e1370775e48.woff2",
+    "static/media/nasalization-bk-webfont.woff2": "/static/media/nasalization-bk-webfont.fd07dbbc335a0f9bc8bc.woff2",
+    "index.html": "/index.html",
+    "main.f05d88e8.css.map": "/static/css/main.f05d88e8.css.map",
+    "main.95f2d40e.js.map": "/static/js/main.95f2d40e.js.map",
+    "787.87d17976.chunk.js.map": "/static/js/787.87d17976.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f05d88e8.css",
+    "static/js/main.95f2d40e.js"
+  ]
+}
