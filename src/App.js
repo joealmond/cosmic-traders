@@ -11,17 +11,23 @@ function App() {
   const [cart, setCart] = useState([]);
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Header />
       <div className={styles.content}>
         <Routes>
           <Route
-            path="/outpost"
+            path="cosmic-traders/outpost"
             element={<Outpost cart={cart} setCart={setCart} />}
           />
-          <Route path="/checkout" element={<Checkout cart={cart} />} />
-          <Route path="/product-details/:slug" element={<ProductDetails />} />
-          <Route path="/" element={<Navigate to="/outpost" />} />
+          <Route
+            path="cosmic-traders/checkout"
+            element={<Checkout cart={cart} />}
+          />
+          <Route
+            path="cosmic-traders/product-details/:slug"
+            element={<ProductDetails />}
+          />
+          <Route path="cosmic-traders/" element={<Navigate to="/outpost" />} />
         </Routes>
       </div>
     </BrowserRouter>
