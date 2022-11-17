@@ -1,7 +1,7 @@
+import products from "../products/products.json";
 import { useSearchParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-// import products from '../products/products.json'
 import styles from "./ProductListing.module.scss";
 import Product from "./Product";
 
@@ -9,13 +9,14 @@ function ProductListing(props) {
   const [searchParams, setSearchParams] = useSearchParams();
   const filter = searchParams.get("filter");
 
-  const [products, setProducts] = useState([]);
+  // const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    fetch("/api/products") // find proxy in package.json
-      .then((res) => res.json())
-      .then((productsArray) => setProducts(productsArray));
-  }, []);
+  // useEffect(() => {
+  //   // add "proxy": "http://localhost:8081", // in package.json, insert befor "dependencies"
+  //   fetch("/api/products") // find proxy in package.json
+  //     .then((res) => res.json())
+  //     .then((productsArray) => setProducts(productsArray));
+  // }, []);
 
   function setFilter(filter) {
     setSearchParams({ filter });
