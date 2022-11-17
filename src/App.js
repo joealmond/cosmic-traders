@@ -16,18 +16,12 @@ function App() {
       <div className={styles.content}>
         <Routes>
           <Route
-            path="cosmic-traders/outpost"
+            path="/outpost"
             element={<Outpost cart={cart} setCart={setCart} />}
           />
-          <Route
-            path="cosmic-traders/checkout"
-            element={<Checkout cart={cart} />}
-          />
-          <Route
-            path="cosmic-traders/product-details/:slug"
-            element={<ProductDetails />}
-          />
-          <Route path="cosmic-traders/" element={<Navigate to="/outpost" />} />
+          <Route path="/checkout" element={<Checkout cart={cart} />} />
+          <Route path="/product-details/:slug" element={<ProductDetails />} />
+          <Route path="/" element={<Navigate to="/outpost" />} />
         </Routes>
       </div>
     </BrowserRouter>
