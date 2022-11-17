@@ -11,7 +11,7 @@ function App() {
   const [cart, setCart] = useState([]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <div className={styles.content}>
         <Routes>
