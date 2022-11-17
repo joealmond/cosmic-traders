@@ -9,31 +9,26 @@ import styles from "./App.module.scss";
 
 function App() {
   const [cart, setCart] = useState([]);
-  const PublicUrl = {};
-  const publicUrl = new PublicUrl(process.env.PUBLIC_URL);
   return (
-    <BrowserRouter basename={publicUrl}>
+    <BrowserRouter>
       <Header />
       <div className={styles.content}>
         <Routes>
           <Route
-            basename={publicUrl}
-            path="/outpost"
+            path="cosmic-traders/outpost"
             element={<Outpost cart={cart} setCart={setCart} />}
           />
           <Route
-            basename={publicUrl}
-            path="/checkout"
+            path="cosmic-traders/checkout"
             element={<Checkout cart={cart} />}
           />
           <Route
-            basename={publicUrl}
-            path="/product-details/:slug"
+            path="cosmic-traders/product-details/:slug"
             element={<ProductDetails />}
           />
           <Route
             basename={publicUrl}
-            path="/"
+            path="cosmic-traders/"
             element={<Navigate to="/outpost" />}
           />
         </Routes>
