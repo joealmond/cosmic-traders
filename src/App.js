@@ -26,11 +26,7 @@ function App() {
             path="cosmic-traders/product-details/:slug"
             element={<ProductDetails />}
           />
-          <Route
-            basename={publicUrl}
-            path="cosmic-traders/"
-            element={<Navigate to="/outpost" />}
-          />
+          <Route path="cosmic-traders/" element={<Navigate to="/outpost" />} />
         </Routes>
       </div>
     </BrowserRouter>
